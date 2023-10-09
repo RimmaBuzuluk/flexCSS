@@ -1,6 +1,46 @@
-div{
-    background-color: aquamarine;
-    width: 100px;
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Забезпечує 100% висоти екрану */
+    margin: 0; /* Забирає зовнішній відступ у body */
+}
+
+header {
+    
+}
+
+main {
+    flex: 1;
+}
+
+footer {
     height: 50px;
+    background-color: cadetblue;
+    padding: 10px;
+    flex-shrink: 0; /* Забороняє футеру зміщуватися вгору */
+}
+
+.div{
+    width: 80px;
+    height: 100px;
+    border-radius: 50%;
+    border-color: brown;
+}
+
+.container{
+    background-color: black;
+    color: white;
+}
+
+.container_flex{
+    display: flex;
+    background-color: white;
+  
+}
+
+.item_flex{
+    background-color: black;
     margin: 10px;
 }
+
+
